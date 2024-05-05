@@ -16,5 +16,5 @@ export class SextoCasoComponent  implements OnInit {
 
   ngOnInit() {}
 
-  colorButton: string = 'primary';
+  colorButton: string = 'dark';
 }
