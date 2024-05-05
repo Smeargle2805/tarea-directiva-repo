@@ -1,0 +1,14 @@
+<ion-button [ngSwitch]="colorButton">
+  <ion-icon name="checkmark"></ion-icon>
+  <ion-label>Botón con color</ion-label>
+  <ng-container *ngSwitchCase="'primary'">
+    Primary
+  </ng-container>
+  <ng-container *ngSwitchCase="'dark'">
+    Dark
+  </ng-container>
+  <ng-container *ngSwitchCase="'danger'">
+    Danger
+  </ng-container>
+</ion-button>
+
